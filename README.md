@@ -86,7 +86,11 @@ The dataset is stored in both JSON nested hierarchical structure and CSV format.
 - `data_source_url`: The URL to the weekly project repository *(str)*.
 - `data_dictionary`: A list of dictionaries, each containing the variable names, classes, and descriptions for each dataset *(List[Dict[str: List[str]]])*. 
 - `data`: A dictionary of dataset names and links to view. The values of the keys `file_name` and `file_url` are organized in list fashion. 
-- `data_load`: A dictionary of dataset names and links to direct download. The values of the keys `file_name` and `file_url` are organized in list fashion *(Dict[str: List[str]])*. 
+- `data_load`: A dictionary of dataset names and links to direct download. The values of the keys `file_name` and `file_url` are organized in list fashion *(Dict[str: List[str]])*.
+
+Key / Variable           Type               Description
+---------------      ----------------      ------------------------------------------------------------------------
+`date_posted`          *str*                The date when the weekly project was posted *(YYYY-MM-DD)*
 
 ## Dataset Creation
 

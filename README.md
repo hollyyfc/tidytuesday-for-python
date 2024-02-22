@@ -25,9 +25,13 @@ This dataset scrapes TidyTuesday datasets from 2023-2024, aiming to make resourc
 - This dataset can also be your starting point in discovering various topics of exploration, stepping your feet into unknown territories, and offering insights into the impact that data can realize. Direct view and download links are provided within the data structure. 
 - By referring to TidyTuesday, you have the ability to discover the specialties of both Python and R, choose wisely on different packages or features that each language offers, or even learn a new language based on the one you’re familiar with!
 
-- ## Dataset Structure
+## Dataset Structure
 
-The dataset is stored in a JSON nested, hierarchical structure. Refer below for a detailed depiction of the variable organization. 
+The dataset is stored in both JSON nested hierarchical structure and CSV format. 
+
+- Full set: `tidytuesday_json.json` and `tidytuesday_2023_2024.csv`
+- Train set: `tidytuesday_json_train.json` and `tidytuesday_train.csv`
+- Validation set: `tidytuesday_json_val.json` and `tidytuesday_val.csv`
 
 ### Data Instances
 

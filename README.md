@@ -79,15 +79,6 @@ The dataset is stored in both JSON nested hierarchical structure and CSV format.
 
 ### Data Fields
 
-- `date_posted`: The date when the weekly project was posted *(YYYY-MM-DD str)*.
-- `project_name`: The name of the weekly project *(str)*.
-- `project_source`: A list of URLs to the project's data and information source *(List[str])*.
-- `description`: A brief excerpt of the project and dataset description *(str)*.
-- `data_source_url`: The URL to the weekly project repository *(str)*.
-- `data_dictionary`: A list of dictionaries, each containing the variable names, classes, and descriptions for each dataset *(List[Dict[str: List[str]]])*. 
-- `data`: A dictionary of dataset names and links to view. The values of the keys `file_name` and `file_url` are organized in list fashion. 
-- `data_load`: A dictionary of dataset names and links to direct download. The values of the keys `file_name` and `file_url` are organized in list fashion *(Dict[str: List[str]])*.
-
 | **Key / Variable** | **Type**                     | **Description**                                                                                                                             |
 |--------------------|------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | `date_posted`      | *str*                        | The date when the weekly project was posted _(YYYY-MM-DD)_                                                                                  |

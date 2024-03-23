@@ -21,6 +21,8 @@ This dataset scrapes TidyTuesday datasets from 2023-2024, aiming to make resourc
 
 ## Uses
 
+Example Use Cases: https://github.com/hollyyfc/tidytuesday-for-python/blob/58f37e41fc4d9baeb6ec7ab6208879fbf90f617d/huggingface_example.ipynb
+
 - This dataset can be used for data visualization, statistical analysis, and machine learning NLP tasks. Since it's a compilation of diverse datasets, it supports a variety of tasks and can be used to benchmark different data processing and visualization techniques in Python.
 - This dataset can also be your starting point in discovering various topics of exploration, stepping your feet into unknown territories, and offering insights into the impact that data can realize. Direct view and download links are provided within the data structure. 
 - By referring to TidyTuesday, you have the ability to discover the specialties of both Python and R, choose wisely on different packages or features that each language offers, or even learn a new language based on the one you’re familiar with!
